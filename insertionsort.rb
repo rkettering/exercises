@@ -3,7 +3,7 @@
 $items=[]
 
 for num in 1..25
-	$items.push rand(num)
+	$items.push rand(25)
 end
 
 def insertionsort(array)
